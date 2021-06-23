@@ -1,9 +1,10 @@
-  
 import React from 'react';
 import Header from './Header';
+// import IsLoadingAndError from './IsLoadingAndError';
 import Footer from './Footer';
 import LogIn from "./LoginButton.js";
 import { withAuth0 } from '@auth0/auth0-react';
+// import axios from 'axios';
 
 import {
   BrowserRouter as Router,
@@ -11,7 +12,7 @@ import {
   Route
 } from "react-router-dom";
 import Books from "./myFavoriteBooks.js"
-import Profile from "./profile.js"
+import Profile from "./Profile.js"
 
 class App extends React.Component {
 
