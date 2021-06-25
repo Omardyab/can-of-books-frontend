@@ -1,17 +1,9 @@
 .jumbotron{
   margin-bottom: 0;
 }
-
-.books{
+.book{
   text-align: center;
-  font-weight: 350;
-  font-size: medium;
-  color: black;
-  margin: 2rem;
-  padding: 2rem;
-}
-
-.card{
-  margin: 1rem;
- 
+  font-weight: 200;
+  font-size:xx-large ;
+  color: rgb(14, 61, 102);
 }
