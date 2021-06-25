@@ -4,6 +4,7 @@ import Header from './Header';
 import Footer from './Footer';
 import LogIn from "./LoginButton.js";
 import { withAuth0 } from '@auth0/auth0-react';
+// import axios from 'axios';
 
 import {
   BrowserRouter as Router,
@@ -32,8 +33,7 @@ class App extends React.Component {
                 {/* TODO: add a route with a path of '/profile' that renders a `Profile` component */}
                 <Route exact path="/profile">
                 <Profile />
-                </Route>
-                
+                </Route>               
                 
               </Switch>
             <Footer />
